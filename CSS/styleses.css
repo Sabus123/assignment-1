@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif; 
+  margin: 0;
+  padding: 0;
+}
 /* This is head-line side work */
 .head-line{
   display: flex;
@@ -102,6 +107,7 @@ font-weight: bold;
 margin-top: 50px;
 margin-bottom: 20px;
 color: #333;
+text-align: left;
 }
 
 .card-info {
@@ -338,6 +344,7 @@ margin-bottom: 20px;
   height: 400px;
   width: 1200px;
   margin: 150px;
+  justify-items: center;
 }
 .container {
   text-align: center;
@@ -351,25 +358,43 @@ margin-bottom: 20px;
 }
 
 .option {
-  background-color: #12bb61;
-  border: none;
+  border:2px solid #170f0f;
+  background-color: white;
   padding: 15px 30px;
   border-radius: 5px;
   cursor: pointer;
+  color: black;
+  font-size: 40px;
+  font-weight: bold; 
   margin: 10px 15px 20px 10px;
   
 }
-
+.opt{
+  background-color: #C6E4D6;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  margin: 10px 15px 10px 10px;
+  font-size: 40px; 
+  font-weight: bold; 
+  
+}
 .option:hover {
   background-color: #09ef93;
 }
+.opt:hover {
+  background-color: #b1bcb8;
+}
 
 #otherAmount {
-  width: 50%;
+  width: 85%;
   display: flex;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -382,4 +407,41 @@ margin-bottom: 20px;
   cursor: pointer;
   justify-content: center;
   
+}
+
+
+/* subscribe part design */
+.subscrib-part{
+  width: 80%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  text-align:center;
+}
+input[type="email"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #006A50; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+ h2{
+  text-align:;
+  
+}
+
+.foot{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
 }
